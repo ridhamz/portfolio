@@ -1,14 +1,14 @@
 {
   "name": "modern_portfolio",
   "version": "1.0.0",
-  "description": "Responsive portfolio website",
+  "description": "My Portfolio",
   "main": "index.js",
-  "homepage": "https://bradtraversy.github.io/modern_portfolio",
+  "homepage": "https://ridhamz.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Brad Traversy",
+  "author": "Mezrigui Ridha",
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^1.2.0",
