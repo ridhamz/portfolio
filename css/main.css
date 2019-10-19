@@ -165,11 +165,13 @@ main {
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
