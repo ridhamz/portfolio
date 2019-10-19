@@ -85,13 +85,15 @@ main {
   .bio-image {
     grid-area: bioimage;
     margin: auto;
+    width:200px;
+    height: 200px;
     border-radius: 50%;
     border: $secondary-color 3px solid;
   }
 
   .bio {
     grid-area: bio;
-    font-size: 1.5rem;
+    font-size:1rem;
   }
 
   .job-1 {
@@ -101,10 +103,6 @@ main {
   .job-2 {
     grid-area: job2;
   }
-
-  //.job-2 {
-    //grid-area: job3;
-  //}
 
   .job {
     background: lighten($primary-color, 5);

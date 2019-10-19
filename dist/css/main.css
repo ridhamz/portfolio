@@ -165,11 +165,13 @@ main {
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -274,7 +276,7 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   main {
     padding: 2rem; }
     main #home h1 {
@@ -283,4 +285,4 @@ main {
       margin-top: 1rem;
       font-size: 3rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 2fr; } }

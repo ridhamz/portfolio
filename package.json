@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My Portfolio",
   "main": "index.js",
-  "homepage": "https://ridhamz.github.io/portfolio",
+  "homepage": "https://ridhamz.github.io/Myportfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
