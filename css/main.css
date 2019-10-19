@@ -198,13 +198,13 @@ main {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
-    font-size: 2rem;
+    font-size: 1rem;
     border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
+    padding: 0.5rem 1rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
-      padding: 0.5rem 1.5rem;
+      padding: 0.5rem 1rem;
       background: #eece1a;
       color: #000; }
       .boxes div:hover span {
@@ -269,7 +269,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
@@ -281,6 +281,6 @@ main {
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem; }
+      font-size: 3rem; }
   .projects {
     grid-template-columns: 1fr; } }
