@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "My Portfolio",
   "main": "index.js",
-  "homepage": "https://ridhamz.github.io/Myportfolio",
+  "homepage": "https://ridhamz.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist" 
   },
   "author": "Mezrigui Ridha",
   "license": "MIT",
