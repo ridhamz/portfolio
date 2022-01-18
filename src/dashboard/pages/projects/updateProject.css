@@ -1,0 +1,15 @@
+.updateproject__header {
+  color: white;
+  text-align: center;
+}
+
+.updateproject {
+  width: 90%;
+  max-width: 25rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.updateproject form {
+  margin-bottom: 1rem;
+}

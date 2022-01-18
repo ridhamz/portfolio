@@ -1,0 +1,15 @@
+.addproject__header {
+  color: white;
+  text-align: center;
+}
+
+.addproject {
+  width: 90%;
+  max-width: 25rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.addproject form {
+  margin-bottom: 1rem;
+}

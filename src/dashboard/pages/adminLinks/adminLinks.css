@@ -1,0 +1,61 @@
+.adminLinks {
+  font: inherit;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid white;
+  border-radius: 4px;
+  background: #eece1a;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px ;
+}
+
+.adminLinks:focus {
+  outline: none;
+}
+
+.adminLinks:hover,
+.adminLinks:active {
+  background: white;
+  border-color: #000000;
+}
+
+.adminLinks--inverse {
+  background: transparent;
+  color: #ff0055;
+}
+
+.adminLinks--inverse:hover,
+.adminLinks--inverse:active {
+  color: white;
+  background: #ff0055;
+}
+
+.adminLinks--danger {
+  background: #830000;
+  border-color: #830000;
+}
+
+.adminLinks--danger:hover,
+.adminLinks--danger:active {
+  background: #f34343;
+  border-color: #f34343;
+}
+
+.adminLinks:disabled,
+.adminLinks:hover:disabled,
+.adminLinks:active:disabled {
+  background: #ccc;
+  color: #979797;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.adminLinks--small {
+  font-size: 0.8rem;
+}
+
+.adminLinks--big {
+  font-size: 1.5rem;
+}

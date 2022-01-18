@@ -1,0 +1,14 @@
+.project-list {
+  list-style: none;
+  margin: 1rem auto;
+  padding: 0;
+  width: 80%;
+  max-width: 40rem;
+}
+
+.project-list img {
+    width: 100%;
+    border: 3px #fff solid; }
+    .project-list img:hover {
+      border-color: #eece1a;
+      transition: all 0.5s ease-out; }
