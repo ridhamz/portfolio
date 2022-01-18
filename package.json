@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ridhamz.github.io",
   "engines": {
     "npm": "6.13.6",
     "node": "13.7.0"
