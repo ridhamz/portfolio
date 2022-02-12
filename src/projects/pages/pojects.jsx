@@ -17,7 +17,7 @@ const Projects = () => {
     const fetchProjects = async () => {
       try {
         const responseData = await sendRequest(
-          process.env.REACT_APP_API_URL + `/projects/allProjects`
+          "https://mezriguiridha.herokuapp.com/api/projects/allProjects"
         );
         const data = responseData.reverse();
         setProjects(data);
