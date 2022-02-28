@@ -3,9 +3,9 @@ import Head from '../components/head';
 import './skills.css';
 import SkillItem from '../components/skillItem';
 const Skills = () => {
-  const languages = ['JavaScript', 'TypeScript', 'Solidity'];
+  const languages = ['JavaScript', 'TypeScript', 'Java'];
 
-  const frameworks = ['Nodejs/Express', 'React', 'Next.js'];
+  const frameworks = ['Nodejs/Express', 'React', 'Next.js', 'koa.js'];
 
   const paradigms = [
     'FUNCTIONAL PROGRAMMING',
